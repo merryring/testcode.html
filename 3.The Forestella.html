@@ -2,11 +2,11 @@
 <html>
     <head>
         <style>
-               body{
+            body{
                 margin:0px
             }
 
-           a{color:black;
+            a{color:black;
             text-decoration:none;}
 
             h1{
@@ -46,56 +46,66 @@
                 margin:0px;
                 padding:20px;
             }
+            #grid{
+                display:grid;
+                grid-template-columns: 200px 1fr;
+            }
+            #article{
+                margin:0 auto;
+                padding-top:15px
+            }
         </style>
         <title>Forestella</title>
         <meta charset="utf-8">
     </head>
-
     <body>
         <a href="index.html"><h1>Forestella</h1></a>
         <strong class="캐치">숲처럼 편안하고, 별처럼 빛나는 음악</strong>
-        <ol>
-            <li><a href="1.Evolution.html" class="saw">Evolution</li></a>
-            <li><a href="2.Mystique.html" class="saw">Mystique</li></a>
-            <li><a href="3.The Forestella.html" class="saw" id="active">The Forestella</li></a>
-        </ol>
-    
-    <img src="the forestella.jpeg" width="400"><br>
-    <table>
-        <tr>
-            <th><a href="https://www.genie.co.kr/detail/albumInfo?axnm=82004200" id="active" target="_blank" title="3.The Forestella"
-                >3th. The Forestella</a></th>
-        </tr>
-        <tr>
-            <td>1. Nella Fantasia</td>
-        </tr>
-        <tr>
-            <td>2. 바람이 건네준 말</td>
-        </tr>
-        <tr>
-            <td>3. 연(緣)</td>
-        </tr>
-        <tr>
-            <td>4. 눈물 속에 홀로 (원곡: Je Suis Malade)</td>
-        </tr>
-        <tr>
-            <td>5. 당신이 듣던</td>
-        </tr>
-        <tr>
-            <td><strong>6. My Heart Will Go On</strong></td>
-        </tr>
-        <tr>
-            <td><strong>7. Thriller</strong></td>
-        </tr>
-        <tr>
-            <td>8. We Are The Champions</td>
-        </tr>
-        <tr>
-            <td><strong>9. 함께라는 이유</strong></td>
-        </tr>
-        <tr>
-            <td>10. One Love (feat. UK) (Special Track)</td>
-        </tr>
-    </table>
+        <div id="grid">
+            <ol>
+                <li><a href="1.Evolution.html" class="saw">Evolution</li></a>
+                <li><a href="2.Mystique.html" class="saw">Mystique</li></a>
+                <li><a href="3.The Forestella.html" class="saw" id="active">The Forestella</li></a>
+            </ol>
+            <div id="article">
+                <img src="the forestella.jpeg" width="400"><br>
+                <table>
+                    <tr>
+                        <th><a href="https://www.genie.co.kr/detail/albumInfo?axnm=82004200" id="active" target="_blank" title="3.The Forestella"
+                            >3th. The Forestella</a></th>
+                    </tr>
+                    <tr>
+                        <td>1. Nella Fantasia</td>
+                    </tr>
+                    <tr>
+                        <td>2. 바람이 건네준 말</td>
+                    </tr>
+                    <tr>
+                        <td>3. 연(緣)</td>
+                    </tr>
+                    <tr>
+                        <td>4. 눈물 속에 홀로 (원곡: Je Suis Malade)</td>
+                    </tr>
+                    <tr>
+                        <td>5. 당신이 듣던</td>
+                    </tr>
+                    <tr>
+                        <td><strong>6. My Heart Will Go On</strong></td>
+                    </tr>
+                    <tr>
+                        <td><strong>7. Thriller</strong></td>
+                    </tr>
+                    <tr>
+                        <td>8. We Are The Champions</td>
+                    </tr>
+                    <tr>
+                        <td><strong>9. 함께라는 이유</strong></td>
+                    </tr>
+                    <tr>
+                        <td>10. One Love (feat. UK) (Special Track)</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
     </body>
 </html>

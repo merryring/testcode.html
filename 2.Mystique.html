@@ -45,6 +45,14 @@
                 margin:0px;
                 padding:20px;
             }
+            #grid{
+                display:grid;
+                grid-template-columns: 200px 1fr;
+            }
+            #article{
+                margin:0 auto;
+            }
+
         </style>
         <title>Forestella</title>
         <meta charset="utf-8">
@@ -54,53 +62,57 @@
     <body>
         <a href="index.html"><h1>Forestella</h1></a>
         <strong class="캐치">숲처럼 편안하고, 별처럼 빛나는 음악</strong>
-        <ol>
-            <li><a href="1.Evolution.html"class="saw">Evolution</li></a>
-            <li><a href="2.Mystique.html"class="saw" id="active">Mystique</li></a>
-            <li><a href="3.The Forestella.html" class="saw">The Forestella</li></a>
-        </ol>
-    <p><img src="mystique.jpeg" width="400"></p>
-    <table>
-        <tr>
-            <th style="color:midnightblue">2th. Mystique</th>
-        </tr>
-        <tr>
-            <td>1. Intro: Mystique</td>
-        </tr>
-        <tr>
-            <td><strong>2. 달아 노피곰 도다샤</strong></td>
-        </tr>
-        <tr>
-            <td><strong>3. Angel</strong></td>
-        </tr>
-        <tr>
-            <td>4. 마법의 성</td>
-        </tr>
-        <tr>
-            <td><strong>5. My Favorite Things</strong></td>
-        </tr>
-        <tr>
-            <td>6. The Sky and the Dawn and the Sun</td>
-        </tr>
-        <tr>
-            <td>7. Prelude de la Luna</td>
-        </tr>
-        <tr>
-            <td><a href="2-2.hijodelaluna.html" target=_blank title="=hijo de la luna">
-                8. Hijo de la Luna (달의 아들)</a></td>
-        </tr>
-        <tr>
-            <td>9. All the King's Horses</td>
-        </tr>
-        <tr>
-            <td>10. 야상곡</td>
-        </tr>
-        <tr>
-            <td>11. Bohemian Rhapsody</td>
-        </tr>
-        <tr>
-            <td>12. 이 계절의 꽃</td>
-        </tr>
-    </table>
+        <div id="grid">
+            <ol>
+                <li><a href="1.Evolution.html"class="saw">Evolution</li></a>
+                <li><a href="2.Mystique.html"class="saw" id="active">Mystique</li></a>
+                <li><a href="3.The Forestella.html" class="saw">The Forestella</li></a>
+            </ol>
+            <div id="article">
+                <p><img src="mystique.jpeg" width="400"></p>
+                <table>
+                    <tr>
+                        <th style="color:midnightblue">2th. Mystique</th>
+                    </tr>
+                    <tr>
+                        <td>1. Intro: Mystique</td>
+                    </tr>
+                    <tr>
+                        <td><strong>2. 달아 노피곰 도다샤</strong></td>
+                    </tr>
+                    <tr>
+                        <td><strong>3. Angel</strong></td>
+                    </tr>
+                    <tr>
+                        <td>4. 마법의 성</td>
+                    </tr>
+                    <tr>
+                        <td><strong>5. My Favorite Things</strong></td>
+                    </tr>
+                    <tr>
+                        <td>6. The Sky and the Dawn and the Sun</td>
+                    </tr>
+                    <tr>
+                        <td>7. Prelude de la Luna</td>
+                    </tr>
+                    <tr>
+                        <td><a href="2-2.hijodelaluna.html" target=_blank title="=hijo de la luna">
+                            8. Hijo de la Luna (달의 아들)</a></td>
+                    </tr>
+                    <tr>
+                        <td>9. All the King's Horses</td>
+                    </tr>
+                    <tr>
+                        <td>10. 야상곡</td>
+                    </tr>
+                    <tr>
+                        <td>11. Bohemian Rhapsody</td>
+                    </tr>
+                    <tr>
+                        <td>12. 이 계절의 꽃</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
     </body>
 </html>
